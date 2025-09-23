@@ -1,0 +1,3 @@
+Uma união discriminada é uma versão “melhorada” da union em C. A union normal guarda vários tipos no mesmo espaço de memória, mas só dá para usar um de cada vez.
+O problema é que ela não avisa qual está sendo usado, e isso pode causar erro. A união discriminada resolve isso colocando junto um campo extra que diz qual dado da union está válido. 
+Assim, o programa sempre sabe se deve ler, por exemplo, o CPF ou o RG. Ela é necessária porque evita confusão e torna o uso de union seguro, sem gastar memória a mais.
