@@ -35,22 +35,22 @@ int main(){
     struct animal a5 = {0,.zoo.anfibio = {0,0.1,"não"}};
     struct animal a6 = {1,.zoo.ave = {1.2,"sim",3.4}};
     
-    printf("Anfibio 1: patas=%d, espessura=%.2f, cauda=%s\n",
-           a1.zoo.anfibio.patas, a1.zoo.anfibio.espessura, a1.zoo.anfibio.cauda);
+    printf("Anfibio: número de patas = %d, espessura da pele = %.2f, possui cauda = %s\n.",
+          a1.zoo.anfibio.patas, a1.zoo.anfibio.espessura, a1.zoo.anfibio.cauda);
 
-    printf("Ave 1: bico=%.1f, autonomia=%s, canto=%.1f\n",
+    printf("Ave: comprimento do bico = %.1f, autonomia de vôo = %s, frequência do canto = %.1f\n.",
            a2.zoo.ave.bico, a2.zoo.ave.autonomia, a2.zoo.ave.canto);
 
-    printf("Mamifero: dentes=%d, volume=%.1f, velocidade=%d\n",
+    printf("Mamifero: quantidade de dentes = %d, volume do cérebro = %.1f, velocidade terrestre = %d\n.",
            a3.zoo.mamifero.dentes, a3.zoo.mamifero.volume, a3.zoo.mamifero.velocidade);
 
-    printf("Reptil: venenoso=%s, autonomiah2o=%s, ovos=%.1f\n",
+    printf("Réptil: venenoso = %s, autonomia debaixo d'água = %s, espessura dos ovos = %.1f\n.",
            a4.zoo.repteis.venenoso, a4.zoo.repteis.autonomiah2o, a4.zoo.repteis.ovos);
 
-    printf("Anfibio 2: patas=%d, espessura=%.2f, cauda=%s\n",
+    printf("Anfibio: número de patas = %d, espessura da pele = %.2f, possui cauda = %s\n.",
            a5.zoo.anfibio.patas, a5.zoo.anfibio.espessura, a5.zoo.anfibio.cauda);
 
-    printf("Ave 2: bico=%.1f, autonomia=%s, canto=%.1f\n",
+    printf("Ave: comprimento do bico = %.1f, autonomia de vôo = %s, frequência do canto = %.1f\n.",
            a6.zoo.ave.bico, a6.zoo.ave.autonomia, a6.zoo.ave.canto);
     
     return 0;
